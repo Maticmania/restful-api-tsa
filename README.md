@@ -23,4 +23,23 @@ cd product-management-api
 npm install
 ```
 ### 3. Create a `.env` File
+**Create a `.env` file in the root of the project and add the following environment variables:**
+```env
+PORT=8080
+MONGODB_URL=your_mongodb_connection_string
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+```
+### 4. Start the Server
+```
+npm start
+```
+>The server will start on http://localhost:8080.
+
+## API Endpoints
+
+### 1. Create a Product
+- Endpoint: **POST** ***http://localhost:8080/api/products/create***
+-Description: **Create a new product.**
 
