@@ -124,7 +124,7 @@ npm start
 ![Screenshot 2024-07-06 021157](https://github.com/Maticmania/restful-api-tsa/assets/102809968/4a3757e1-1b6a-4655-a81a-46980e51268e)
 
 
-### 4. Update a Product
+### 4. Delete a Product
 - Endpoint: **DELETE** ***http://localhost:8080/api/products/:productId***
 - **Description:** Delete a product by ID.
 - **Response:**
@@ -138,4 +138,4 @@ npm start
   ![image](https://github.com/Maticmania/restful-api-tsa/assets/102809968/803761a4-4c3e-4563-9fcc-2f8d7ea116ff)
 
   
-                                    Code with 💖 by Matic 🐒
+                                                                          Code with 💖 by Matic 🐒
