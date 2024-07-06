@@ -173,9 +173,12 @@ export const updateProduct = async (req, res) => {
 export const getAllProducts = async (req, res) => {
     try {
       const products = await Product.find();
+      const totalProducts = await Product.countDocuments();
+
       res.status(200).json({
         success: true,
         message: "Products retrieved successfully",
+        totalProducts,
         products,
       });
     } catch (err) {
